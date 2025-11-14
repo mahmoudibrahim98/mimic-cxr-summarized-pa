@@ -1,10 +1,10 @@
 # MIMIC-CXR Summarized PA Data
 
-This directory contains summarized Postero-Anterior (PA) chest X-ray impressions from the MIMIC-CXR dataset. The summarization process was performed to ensure compatibility with the RoentGen-v2 model's tokenizer, which has a maximum sequence length of 77 tokens.
+This directory contains summarized Postero-Anterior (PA) chest X-ray impressions from the MIMIC-CXR dataset. The summarization process was performed to ensure compatibility with the CLIP tokenizer, which has a maximum sequence length of 77 tokens.
 
 ## Overview
 
-The MIMIC-CXR dataset contains radiology reports with impressions that vary in length. Some impressions exceed the token limit of the CLIP tokenizer used in RoentGen-v2 (77 tokens). This directory contains the original impressions and their AI-generated summaries for impressions that were too long.
+The MIMIC-CXR dataset contains radiology reports with impressions that vary in length. Some impressions exceed the token limit of the CLIP tokenizer (77 tokens). This directory contains the original impressions and their AI-generated summaries for impressions that were too long.
 
 The summarization was performed using GPT-5 , based on prior work demonstrating that GPT-5 is highly capable in summarizing radiology reports [[1,2]](#references).
 
@@ -25,7 +25,7 @@ The summarization was performed using GPT-5 , based on prior work demonstrating 
    - Standardized ethnicity and gender categories
 
 2. **Tokenization**:
-   - Tokenized impressions using RoentGen-v2's CLIP tokenizer
+   - Tokenized impressions using CLIP tokenizer
    - Identified impressions exceeding 77-token limit (3,939 impressions)
 
 3. **Summarization**:
