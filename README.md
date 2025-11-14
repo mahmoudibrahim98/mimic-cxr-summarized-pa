@@ -6,7 +6,7 @@ This directory contains summarized Postero-Anterior (PA) chest X-ray impressions
 
 The MIMIC-CXR dataset contains radiology reports with impressions that vary in length. Some impressions exceed the token limit of the CLIP tokenizer used in RoentGen-v2 (77 tokens). This directory contains the original impressions and their AI-generated summaries for impressions that were too long.
 
-The summarization was performed using GPT-5 [[38]](#references), based on prior work demonstrating that GPT-5 is highly capable in summarizing radiology reports [[39, 40]](#references).
+The summarization was performed using GPT-5 , based on prior work demonstrating that GPT-5 is highly capable in summarizing radiology reports [[1,2]](#references).
 
 ## Files Description
 
@@ -59,6 +59,11 @@ df['final_impression'] = df['summarized'].fillna(df['impression'])
 
 If you use this summarized data, please cite:
 - MIMIC-CXR dataset: Johnson et al., "MIMIC-CXR: A large publicly available database of labeled chest radiographs", 2019
+
+## References
+
+[1] ACL Anthology 2023 BioNLP Workshop. [Link](https://aclanthology.org/2023.bionlp-1.42/)  
+[2] Nature Medicine 2024. [Link](https://www.nature.com/articles/s41591-024-02855-5)
 
 
 ## License
