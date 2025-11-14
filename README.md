@@ -62,8 +62,8 @@ If you use this summarized data, please cite:
 
 ## References
 
-[1] ACL Anthology 2023 BioNLP Workshop. [Link](https://aclanthology.org/2023.bionlp-1.42/)  
-[2] Nature Medicine 2024. [Link](https://www.nature.com/articles/s41591-024-02855-5)
+[1] RadAdapt: Radiology Report Summarization via Lightweight Domain Adaptation of Large Language Models, ACL Anthology 2023 BioNLP Workshop. [Link](https://aclanthology.org/2023.bionlp-1.42/)  
+[2] Adapted large language models can outperform medical experts in clinical text summarization, Nature Medicine 2024. [Link](https://www.nature.com/articles/s41591-024-02855-5)
 
 
 ## License
