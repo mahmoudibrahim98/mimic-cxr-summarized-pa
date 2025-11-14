@@ -33,7 +33,9 @@ The summarization was performed using GPT-5 , based on prior work demonstrating 
    - GPT-5 prompt: *"Your task is to summarize this radiology report within 200 characters or less. Your response must be concise, truthful, and keep all relevant medical information."*
    - Processed in batches for efficiency
    - Preserved clinical meaning while reducing token count
-   - Based on prior work demonstrating GPT-5's capability in summarizing radiology reports [[39, 40]](#references)
+   - Based on prior work demonstrating GPT-5's capability in summarizing radiology reports [[1,2]](#references)
+   - Total API cost: approximately $60 USD for batch processing all impressions
+
   
 ## Dataset Statistics
 
